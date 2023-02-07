@@ -23,7 +23,6 @@ public class DriverConfig {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito") ;
         options.addArguments("--start-maximized");
-        //options.addArguments("--headless");
         driver = new ChromeDriver(options);
     }
 

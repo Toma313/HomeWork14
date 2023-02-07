@@ -3,8 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="Command Line Tests" >
         <classes>
-            <class name="SomeTest"/>
-            <class name="SomeTest"/>
+            <class name="TestSert"/>
+            <class name="TestSert"/>
         </classes>
     </test>
 </suite>
