@@ -10,9 +10,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.logging.Level;
 
-import static org.openqa.selenium.chrome.ChromeOptions.LOGGING_PREFS;
-import static org.openqa.selenium.remote.CapabilityType.*;
-
 public class DriverConfig {
     public static WebDriver driver;
     public static  WebDriver createDriver(Browsers browser) {
@@ -46,7 +43,7 @@ public class DriverConfig {
         LoggingPreferences prefs = new LoggingPreferences();
         prefs.enable(LogType.BROWSER, Level.ALL);
         DesiredCapabilities capabilities = new DesiredCapabilities();
-     //   capabilities.setCapability(CapabilityType.LOGGING_PREFS, prefs);
+        capabilities.setCapability(CapabilityType.LOGGING_PREFS, prefs);
         ChromeOptions options = new ChromeOptions();
         options.merge(capabilities);
         options.addArguments("--start-maximized");

@@ -6,12 +6,16 @@ import org.testng.annotations.BeforeClass;
 import utils.WorkWithFile;
 import utils.WorkWithLogs;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class BaseClass {
-    static public WebDriver driver;
+    public static WebDriver driver;
+    public static Map<String,String> map = new HashMap<>();
     @BeforeClass
     public static void createDriver() {
         System.out.println("BEFORE BASECLASS");
-        driver = DriverConfig.createDriver(Browsers.CHROMEINCOGNITO);
+        driver = DriverConfig.createDriver(Browsers.CHROMELOGS);
     }
     @AfterClass
     public static void after() {
@@ -20,10 +24,9 @@ public class BaseClass {
         } catch (InterruptedException e){
             throw new RuntimeException(e);
         }
-        System.out.println("AFTER BASECLASS");
-
         WorkWithLogs.printLogs(driver);
         WorkWithFile.createFile("HillelLogs", WorkWithLogs.getLogEntries(driver));
+        WorkWithFile.createFile("MAP", map);
         driver.quit();
     }
 
