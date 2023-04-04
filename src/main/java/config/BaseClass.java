@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeClass;
 import utils.WorkWithFile;
 import utils.WorkWithLogs;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,10 +16,10 @@ public class BaseClass {
     @BeforeClass
     public static void createDriver() {
         System.out.println("BEFORE BASECLASS");
-        driver = DriverConfig.createDriver(Browsers.CHROMELOGS);
+        driver = DriverConfig.createDriver(Browsers.BROWERSMOBPROXY);
     }
     @AfterClass
-    public static void after() {
+    public void after() throws IOException {
         try{
             Thread.sleep(1000);
         } catch (InterruptedException e){

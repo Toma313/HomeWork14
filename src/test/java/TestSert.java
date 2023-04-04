@@ -1,4 +1,5 @@
 import config.BaseClass;
+import config.BaseProxy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -8,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.ResourceBundle;
 
-public class TestSert extends BaseClass {
+public class TestSert extends BaseProxy {
 
     SertificatePage sertificatePage;
     @Test(dataProvider= "gerSert", dataProviderClass = SertData.class)

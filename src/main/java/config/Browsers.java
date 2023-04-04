@@ -1,5 +1,5 @@
 package config;
 
 public enum Browsers {
-    CHROME,CHROMEINCOGNITO, ChromeProxy, CHROMELOGS;
+    CHROME,CHROMEINCOGNITO, ChromeProxy, CHROMELOGS, BROWERSMOBPROXY;
 }
