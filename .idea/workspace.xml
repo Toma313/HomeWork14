@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e24c85e-36a9-4686-9adc-8bcf50a25e09" name="Changes" comment="all for logs">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/agents/SetUpUserAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/agents/USERAGENT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/BaseProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestYoutube.java" afterDir="false" />
+    <list default="true" id="2e24c85e-36a9-4686-9adc-8bcf50a25e09" name="Changes" comment="all">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/BrowserUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/BaseClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/Browsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/DriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/DriverConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestYoutube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestYoutube.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,19 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tamara.voloshchuk/IdeaProjects/HomeWork14&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/tamara.voloshchuk/IdeaProjects/HomeWork14/src/main",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tamara.voloshchuk\IdeaProjects\HomeWork14\src\main" />
       <recent name="C:\Users\tamara.voloshchuk\IdeaProjects\HomeWork14\src\main\resources" />
       <recent name="C:\Users\tamara.voloshchuk\IdeaProjects\HomeWork14\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tamara.voloshchuk\IdeaProjects\HomeWork14\src\main\java\utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="config" />

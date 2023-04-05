@@ -11,12 +11,11 @@ public class TestYoutube extends BaseProxy{
     @Test
     public void test1() throws InterruptedException {
         driver.get("https://www.youtube.com/");
-        Thread.sleep(10000);
-        driver.findElement(By.xpath("//*[@id=\"L2AGLb\"]/div")).click();
         driver.findElement(By.xpath("//button[contains(@class,'icon-button') and contains(@class,'topbar-menu-button-avatar-button')]")).click();
-        driver.findElement(By.xpath("//input[@name='search']")).sendKeys("Ukraine");
+        driver.findElement(By.xpath("//input[@name='search']")).sendKeys("no war");
         driver.findElement(By.xpath("//input[@name='search']")).sendKeys(Keys.ENTER);
-        //  Thread.sleep(3000);
+        Thread.sleep(4000);
+        utils.BrowserUtils.takeScreen("screen");
     }
 
     @Test
